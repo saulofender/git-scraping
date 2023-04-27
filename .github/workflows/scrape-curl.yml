@@ -18,8 +18,8 @@ jobs:
 
       - name: Commit e Push
         run: |-
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
+          git config user.name "saulofender"
+          git config user.email "salomao.valentim@gmail.com"
           git add -A
           timestamp=$(date -u)
           git commit -m "Atualizado em: ${timestamp}" || exit 0
